@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p><h1>Formulario para receber novidades</h1></p>
+    <form action="https://formspree.io/f/xgvwyvap" method="post">
+        <p>Digite suas informações de contato:</p>
+        Insira seu nome: <input type="text" name="nome" placeholder="Nome completo" required> <br>
+     Insira seu número: <input type="number" name="Telefone" placeholder=" (XX) XXXXX-XXXX" required > <br>
+        Insira seu email:  <input type="email" name="email" placeholder="@gmail.com"> <br>
+        <p>Você trabalha?</p>
+        <input type="radio" name="Trabalho" value="Sim" checked> Sim 
+        <input type="radio" name="Trabalho" value="Não"> Não <br>
+        <p>Onde você mora?</p>
+<select name="estados" id=""><option value="1">Pinhais</option>
+    <option value="2">Curitiba</option>
+    <option value="3">Araucária</option>
+    <option value="4">Colombo</option></select> <br>
+    <input type="checkbox" name="Novidades" checked> Aceita receber novidades em seu email? <br>
+    <p><h2>Comente sobre sua experiência no formulario</h2></p>
+    <textarea name="Comentários" id="" required></textarea> <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Apagar</button>
+
+
+    </form>
+</body>
+</html>
